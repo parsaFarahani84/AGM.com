@@ -24,17 +24,22 @@ button {
   text-align: center;
 }
 
+.btn-register {
+  background-color: #537fe7;
+}
+
+.btn-readmore {
+}
+
 .btn {
   padding: 0.75rem 1.5rem;
-
-  background-color: #537fe7;
   border-radius: 10px;
   border: 2px solid transparent;
   transition: all 0.3s;
   cursor: pointer;
 }
 
-.btn:hover {
+.btn-register:hover {
   background-color: #fff;
   border: 2px solid #537fe7;
 }
@@ -145,4 +150,15 @@ li {
   background-position: top;
   position: relative;
   z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero_header {
+  padding: 2rem;
+}
+
+.hero_header h1 {
+  font-size: 4rem;
+  color: rgb(222, 222, 222);
 }
