@@ -12,6 +12,39 @@ body {
 
 a {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+
+  background-color: #537fe7;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 2px solid #537fe7;
+}
+
+.btn:hover a {
+  color: #537fe7;
+}
+
+.btn a {
+  color: white;
 }
 
 li {
@@ -46,9 +79,9 @@ li {
   justify-content: center;
 }
 
-.btn-register {
+/* .btn-register {
   transform: translateY(0.75rem);
-}
+} */
 
 .header_li {
   display: flex;
@@ -63,6 +96,7 @@ li {
   margin-top: 0.5rem;
   gap: 0.5rem;
   opacity: 0;
+  transform: translateY(-2rem);
   visibility: hidden;
   box-shadow: 0px 15px 26px 6px rgba(0, 0, 0, 0.2);
   z-index: 99;
@@ -100,6 +134,7 @@ li {
 .header_li button:focus + .header_li--dropdown {
   opacity: 1;
   visibility: visible;
+  transform: translateY(1rem);
 }
 
 .hero {
