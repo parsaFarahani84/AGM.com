@@ -49,6 +49,7 @@ button {
 .btn-readmore:hover {
   background-color: transparent;
   border: 2px solid #e96479;
+  transform: translateY(-0.3rem);
 }
 
 .btn-register:hover a {
@@ -213,8 +214,12 @@ li {
 }
 
 .hero_images-container img:hover {
-  transform: scale(1.1) translateY(-2rem);
+  transform: scale(1.1) translateY(-2rem) !important;
   outline: 10px solid #537fe7;
   outline-offset: 0.5rem;
   z-index: 10;
+}
+
+.hero_images-container img:hover img:not(:hover) {
+  transform: scale(0.8);
 }
