@@ -190,13 +190,31 @@ li {
 
 .hero_images-container img {
   box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
-  width: 40%;
+  position: absolute;
+  transition: all 0.4s;
+  border-radius: 10px;
+  width: 28%;
+  z-index: 0;
 }
 
 .i1 {
-  transform: translateY(4rem) translateX(4rem);
+  right: 10%;
+  top: 4rem;
+}
+
+.i2 {
+  right: 25%;
+  top: 10rem;
 }
 
 .i3 {
-  transform: translateX(17rem) translateY(-2rem);
+  right: 5%;
+  top: 15rem;
+}
+
+.hero_images-container img:hover {
+  transform: scale(1.1) translateY(-2rem);
+  outline: 10px solid #537fe7;
+  outline-offset: 0.5rem;
+  z-index: 10;
 }
