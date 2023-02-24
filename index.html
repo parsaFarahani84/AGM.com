@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>AGM</title>
   </head>
@@ -27,11 +28,11 @@
           <p>
             <span class="capital">A</span>gma <br /><span class="capital"
               >G</span
-            >lobe<br /><span class="capital">M</span>oror
+            >lobe<br /><span class="capital">M</span>asters
           </p>
         </div>
         <ul class="header_ul">
-          <li class="header_li">
+          <li class="header_li" style="margin-right: -1rem">
             <button><i class="bx bx-file-blank"></i>Programs</button>
             <div class="header_li--dropdown">
               <a href="3#">Fligh training</a>
@@ -61,8 +62,8 @@
     </header>
 
     <main class="main">
-      <div class="hero">
-        <div class="hero_header">
+      <section class="hero">
+        <div class="hero_header aos-init aos-animation" data-aos="fade-up">
           <h1>Fly to the sky on your dreams...</h1>
           <div class="btn btn-readmore">
             <a href="#"><i class="bx bxs-book-open"></i>Read more</a>
@@ -75,7 +76,19 @@
             <img src="./data/p3.jpg" class="i3" />
           </div>
         </div>
-      </div>
+      </section>
+      <section class="rest">
+        <h1></h1>
+        <p></p>
+
+        <div class="rest_image">
+          <h2>Intrested? <br />Lets dive in then.</h2>
+          <button class="btn btn-register"></button>
+        </div>
+      </section>
     </main>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
