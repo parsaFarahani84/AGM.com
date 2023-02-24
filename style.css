@@ -35,6 +35,7 @@ button {
 .btn {
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
+  display: inline-block;
   border: 2px solid transparent;
   transition: all 0.3s;
   cursor: pointer;
@@ -172,7 +173,6 @@ li {
 .hero {
   background-image: linear-gradient(to right bottom, #2b3467b6, #2b3467ba),
     url(./data/hero.jpg);
-
   height: 85vh;
   background-size: cover;
   background-position: top;
@@ -276,7 +276,7 @@ li {
 
 .intrested {
   margin: 2rem;
-  height: 20rem;
+  height: 23rem;
   position: relative;
   background-image: linear-gradient(to right bottom, #5bc0f8, #3e54ac);
 }
@@ -316,7 +316,7 @@ li {
   z-index: 1;
   font-size: 3.5rem;
   color: white;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .intrested-img {
@@ -324,7 +324,7 @@ li {
 }
 
 .v-content {
-  transform: translateY(-17rem);
+  transform: translateY(-18rem);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -332,13 +332,13 @@ li {
 }
 
 .g1 {
-  padding: 0 1rem;
+  padding: 0 3rem;
   margin-top: -2rem;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  align-items: flex-start;
   gap: 1rem;
 }
 
