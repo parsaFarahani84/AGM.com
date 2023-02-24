@@ -229,7 +229,7 @@ li {
 
 .hero_images-container img:hover {
   transform: scale(1.1) translateY(-2rem);
-  outline: 10px solid #537fe7;
+  outline: 8px solid #537fe7;
   outline-offset: 0.5rem;
   z-index: 10;
 }
