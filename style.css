@@ -243,3 +243,33 @@ li {
 .hero_images-container:hover img:not(:hover) {
   transform: scale(0.95);
 }
+
+.rest {
+  padding: 0 4rem;
+  margin-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.rest h1 {
+  background-image: linear-gradient(to right, #5bc0f8, #3e54ac);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.head {
+  font-size: 2.5rem;
+  height: 100%;
+  transition: all 0.3s;
+  margin-bottom: 1rem;
+}
+
+.head:hover {
+  transform: skewX(2deg) skewY(2deg) scale(1.1);
+}
+
+.rest p {
+  width: 70%;
+  margin: 0 auto;
+  color: #4b4b4b;
+}
