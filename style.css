@@ -374,3 +374,80 @@ li {
 .swiper-button-next {
   color: white !important;
 }
+
+.f-whole {
+  padding-bottom: 3rem;
+  margin-top: -1rem;
+  /* background-color: #0099ff; */
+  background-image: linear-gradient(to bottom, #0099ff, #5bc0f8);
+}
+
+.logo-footer {
+  transform: translateY(-3rem);
+  text-align: center;
+}
+
+.footer-logo {
+  border-radius: 50%;
+  width: 6rem;
+}
+
+.social {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.social a {
+  color: white;
+}
+
+.social .bx {
+  font-size: 2rem !important;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 4rem;
+  color: white;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.f1,
+.f2 {
+  border-top: 2px solid white;
+  padding: 2rem;
+  width: 32rem;
+}
+
+.f1 ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.f1 ul li {
+  font-size: 1.1rem;
+}
+
+.f2 h3 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  float: right;
+}
+
+.f2 a {
+  display: inline-block;
+}
+
+.hover-effect {
+  transition: all 0.3s;
+}
+
+.hover-effect:hover {
+  transform: scale(1.2) skewY(5deg);
+  background-color: white;
+  color: #0099ff !important;
+}
