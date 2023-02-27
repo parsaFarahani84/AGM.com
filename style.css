@@ -383,7 +383,7 @@ li {
 }
 
 .logo-footer {
-  transform: translateY(-3rem);
+  transform: translateY(-5rem);
   text-align: center;
 }
 
@@ -409,27 +409,27 @@ li {
 }
 .row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 1rem;
   color: white;
   margin: 0 auto;
   justify-items: center;
+}
+
+.footer-img {
+  width: 10rem;
 }
 
 .f1,
 .f2 {
   border-top: 2px solid white;
   padding: 2rem;
-  width: 32rem;
+  width: 30rem;
 }
 
 .f1 ul {
   display: flex;
   gap: 1.5rem;
-}
-
-.f1 ul li {
-  font-size: 1.1rem;
 }
 
 .f2 h3 {
