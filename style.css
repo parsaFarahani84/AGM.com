@@ -376,20 +376,19 @@ li {
 }
 
 .f-whole {
+  /* padding-top: 2rem; */
   padding-bottom: 3rem;
   margin-top: -1rem;
-  /* background-color: #0099ff; */
-  background-image: linear-gradient(to bottom, #0099ff, #5bc0f8);
+  background-color: #0099ff;
 }
 
 .logo-footer {
-  transform: translateY(-5rem);
   text-align: center;
 }
 
 .footer-logo {
-  border-radius: 50%;
-  width: 6rem;
+  width: 60%;
+  margin-bottom: 1rem;
 }
 
 .social {
@@ -414,15 +413,17 @@ li {
   color: white;
   margin: 0 auto;
   justify-items: center;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .footer-img {
-  width: 10rem;
+  width: 15rem;
 }
 
 .f1,
 .f2 {
-  border-top: 2px solid white;
+  /* border-top: 2px solid white; */
   padding: 2rem;
   width: 30rem;
 }
@@ -436,6 +437,7 @@ li {
   font-size: 1.1rem;
   line-height: 1.5rem;
   float: right;
+  line-height: 1.5rem;
 }
 
 .f2 a {
