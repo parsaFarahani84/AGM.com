@@ -379,7 +379,7 @@ li {
   /* padding-top: 2rem; */
   padding-bottom: 3rem;
   margin-top: -1rem;
-  background-color: #0099ff;
+  background-color: #202a44;
 }
 
 .logo-footer {
@@ -393,7 +393,7 @@ li {
 
 .social {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   justify-content: center;
   align-items: center;
   padding-top: 2rem;
@@ -451,5 +451,20 @@ li {
 .hover-effect:hover {
   transform: scale(1.2) skewY(5deg);
   background-color: white;
-  color: #0099ff !important;
+  color: #202a44 !important;
+}
+
+.go-up {
+  position: fixed;
+  right: 1rem;
+  bottom: 8;
+  background-color: white;
+  /* box-shadow: 0 8px 12px hsla(228, 66%, 45%, 0.1);
+  display: inline-flex;
+  padding: 0.35rem;
+  border-radius: 0.25rem;
+  color: balck;
+  font-size: 1.25rem;
+  z-index: 0;
+  transition: 0.3s; */
 }
