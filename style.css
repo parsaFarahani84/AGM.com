@@ -495,7 +495,7 @@ li {
 }
 
 .ham-menu {
-  display: flex;
+  display: none;
 }
 
 .hidden {
@@ -506,6 +506,14 @@ li {
 @media screen and (max-width: 37.5em) {
   .header_ul {
     display: none;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .ham-menu {
+    display: flex;
   }
 
   .social {
@@ -767,16 +775,13 @@ Sidebar
   position: fixed;
   top: 1rem;
   right: 0.5rem;
-  /* font-size: 2rem; */
+  color: var(--clr-primary-7);
   background: transparent;
   border-color: transparent;
   z-index: 200;
   transition: var(--transition);
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
-}
-.sidebar-toggle:hover {
-  color: var(--clr-primary-7);
 }
 
 .sidebar-header {
@@ -836,7 +841,7 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
 .show-sidebar {
   transform: translate(0);

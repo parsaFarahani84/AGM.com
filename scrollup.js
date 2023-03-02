@@ -1,6 +1,37 @@
 "use strict";
 
-calcScrollUp = () => {
+// -----------------------------RESPONSIVE MENU-------------------------
+const header = document.querySelector(".header_ul");
+const ham = document.querySelector(".ham-menu");
+
+const handelingMenu = () => {
+  if (header.style.display === "flex") {
+    ham[0].classList.add("hidden");
+  }
+};
+
+handelingMenu();
+
+// ----------------------------SHOW MENU------------------------------
+const menu = document.querySelector(".bx-menu-alt-right");
+const sidebar = document.querySelector(".sidebar");
+const x = document.querySelector(".bx-x");
+
+menu.addEventListener("click", function () {
+  if (sidebar.classList.contains("show-sidebar")) {
+    sidebar.classList.remove("show-sidebar");
+  } else {
+    sidebar.classList.add("show-sidebar");
+  }
+});
+
+x.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+  console.log("salam");
+});
+// ------------------------SCROLL UP--------------------
+
+let calcScrollUp = () => {
   let scrollProgress = document.getElementsByClassName("go-up");
   let progressValue = document.getElementsByClassName("bxs-chevron-up");
   let pos = document.documentElement.scrollTop;
@@ -15,39 +46,10 @@ calcScrollUp = () => {
     scrollProgress[0].style.display = "none";
   }
 
-  scrollProgress.addEventListener("click", () => {
+  scrollProgress[0].addEventListener("click", () => {
     document.documentElement.scrollTop = 0;
   });
 };
 
 window.onscroll = calcScrollUp;
 window.onload = calcScrollUp;
-
-// -----------------------------RESPONSIVE MENU-------------------------
-const header = document.querySelector(".header_ul");
-const ham = document.querySelector(".ham-menu");
-
-const handelingMenu = () => {
-  if (header[0].style.display === "flex") {
-    ham[0].classList.add("hidden");
-  }
-};
-
-handelingMenu();
-
-// ----------------------------SHOW MENU------------------------------
-const menue = document.querySelector(".bx-menu-alt-right");
-const sidebar = document.querySelector(".sidebar");
-const x = document.querySelector(".bx-x");
-
-menue.addEventListener("click", function () {
-  if (sidebar.classList.contains("show-sidebar")) {
-    sidebar.classList.remove("show-sidebar");
-  } else {
-    sidebar.classList.add("show-sidebar");
-  }
-});
-
-x.addEventListener("click", function () {
-  sidebar.classList.remove("show-sidebar");
-});
