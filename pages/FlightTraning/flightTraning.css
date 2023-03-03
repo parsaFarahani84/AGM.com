@@ -1,0 +1,39 @@
+.flight-container {
+  margin-top: 5rem;
+}
+
+.flight-2 img,
+.flight-1 img {
+  width: 80%;
+}
+
+.flight-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-2 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* margin-bottom: 4rem; */
+}
+.grid-1 {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 37.5em) {
+  .grid-2,
+  .grid-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flight-2 img,
+  .flight-1 img {
+    margin: 2rem 0;
+  }
+}

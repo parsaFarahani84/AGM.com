@@ -15,7 +15,6 @@ handelingMenu();
 // ----------------------------SHOW MENU------------------------------
 const menu = document.querySelector(".bx-menu-alt-right");
 const sidebar = document.querySelector(".sidebar");
-const x = document.querySelector(".bx-x");
 
 menu.addEventListener("click", function () {
   if (sidebar.classList.contains("show-sidebar")) {
@@ -25,10 +24,6 @@ menu.addEventListener("click", function () {
   }
 });
 
-x.addEventListener("click", function () {
-  sidebar.classList.remove("show-sidebar");
-  console.log("salam");
-});
 // ------------------------SCROLL UP--------------------
 
 let calcScrollUp = () => {
@@ -53,3 +48,29 @@ let calcScrollUp = () => {
 
 window.onscroll = calcScrollUp;
 window.onload = calcScrollUp;
+
+const x = document.querySelector(".bx-x-circle");
+
+x.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+});
+
+// -----------------------------------------------------
+
+const parent = document.querySelectorAll(".parent");
+const child = document.querySelectorAll(".re");
+const child2 = document.querySelectorAll(".ra");
+
+parent.forEach((i) => {
+  i.addEventListener("click", function () {
+    if (i.classList.contains("ser")) {
+      child2.forEach((e) => {
+        e.classList.toggle("hide");
+      });
+    } else {
+      child.forEach((e) => {
+        e.classList.toggle("hide");
+      });
+    }
+  });
+});
