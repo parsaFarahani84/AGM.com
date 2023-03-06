@@ -283,10 +283,14 @@ li {
   transform: scale(0.95);
 }
 
+.header_li a {
+  color: #222;
+}
+
 .rest {
   padding: 0 4rem;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   align-items: center;
   display: flex;
   flex-direction: column;
