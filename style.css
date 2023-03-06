@@ -39,6 +39,11 @@ button {
   /* text-align: center; */
 }
 
+.rotate {
+  rotate: 90deg;
+  transition: all 0.3s ease-in;
+}
+
 .activate {
   background-color: #82aae3;
   border-radius: 5px;

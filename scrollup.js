@@ -74,3 +74,12 @@ parent.forEach((i) => {
     }
   });
 });
+
+// ------------------------ROTATE--------------------
+const bx = document.querySelectorAll(".bx-chevron-right");
+
+bx.forEach((bx) => {
+  bx.addEventListener("click", function () {
+    bx.classList.toggle("rotate");
+  });
+});
