@@ -173,6 +173,7 @@ li {
 
 .side-b a {
   padding: 0.5rem;
+  color: #222;
 }
 
 .header_li--dropdown a:not(:last-child) {
@@ -290,6 +291,9 @@ li {
   background-image: linear-gradient(to right, #5bc0f8, #3e54ac);
   -webkit-background-clip: text;
   color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .head {
