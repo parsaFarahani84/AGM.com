@@ -3,7 +3,7 @@
 .about-dev {
   background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
     url(./iewek-gnos-hhUx08PuYpc-unsplash.jpg);
-  height: 35rem;
+  height: 33rem;
   width: 100%;
   background-size: cover;
   border-radius: 10px;
@@ -50,4 +50,28 @@
 
 .r2 p {
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 37.5em) {
+  .about-dev {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .r1 h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .r2 {
+    padding: 1rem 0;
+  }
+
+  .white-back {
+    width: 85%;
+  }
+  .r2 p {
+    font-size: 1rem;
+  }
 }

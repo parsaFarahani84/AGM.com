@@ -77,9 +77,10 @@ parent.forEach((i) => {
 
 // ------------------------ROTATE--------------------
 const bx = document.querySelectorAll(".bx-chevron-right");
+const Parent = document.querySelectorAll(".parent");
 
 bx.forEach((bx) => {
-  bx.addEventListener("click", function () {
+  Parent.addEventListener("click", function () {
     bx.classList.toggle("rotate");
   });
 });

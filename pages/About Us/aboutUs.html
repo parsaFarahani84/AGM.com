@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./flightTraning.css" />
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="./aboutUs.css" />
     <link rel="stylesheet" href="../FlightTraning/flightTraning.css" />
@@ -13,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="../../data/AGM Logo2.jpg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Flight Training</title>
   </head>
@@ -47,9 +47,7 @@
             <div class="header_li--dropdown">
               <a href="../Admission/admission.html">Admission</a>
               <a href="../Visa/visa.html">Visa</a>
-              <a href="../Accommodation/Accommodation.html" class="activate"
-                >Accommodation</a
-              >
+              <a href="../Accommodation/Accommodation.html">Accommodation</a>
             </div>
           </li>
           <li class="header_li">
@@ -66,7 +64,7 @@
           </li>
           <li class="header_li">
             <button>
-              <a href="../About Us/aboutUs.html"
+              <a href="../About Us/aboutUs.html" class="avtivate"
                 ><i class="bx bx-user-circle"></i>About us</a
               >
             </button>
@@ -101,9 +99,7 @@
             <div class="lo">
               <li class="header_li re hide">
                 <button class="side-b">
-                  <a class="activate"
-                    ><i class="bx bx-message-square"></i>Fligh training</a
-                  >
+                  <a><i class="bx bx-message-square"></i>Fligh training</a>
                 </button>
               </li>
 
@@ -143,10 +139,7 @@
               </li>
               <li class="header_li ra hide">
                 <button class="side-b">
-                  <a
-                    href="../Accommodation/Accommodation.html"
-                    class="activate"
-                  >
+                  <a href="../Accommodation/Accommodation.html">
                     <i class="bx bx-message-square"></i>Accommodation</a
                   >
                 </button>
@@ -184,7 +177,7 @@
     <section class="about-section rest">
       <h1 class="head"><i class="bx bxs-info-circle"></i>About us</h1>
 
-      <div class="about-dev">
+      <div class="about-dev" data-aos="fade-up" data-aos-duration="1500">
         <div class="r1">
           <h1>ALL YOU NEED TO KNOW ABOUT US</h1>
         </div>
@@ -216,5 +209,9 @@
     </section>
 
     <script src="../../scrollup.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
