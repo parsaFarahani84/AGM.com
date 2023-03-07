@@ -80,7 +80,8 @@ const bx = document.querySelectorAll(".bx-chevron-right");
 const Parent = document.querySelectorAll(".parent");
 
 bx.forEach((bx) => {
-  Parent.addEventListener("click", function () {
+  console.log(Parent);
+  Parent[0].addEventListener("click", function () {
     bx.classList.toggle("rotate");
   });
 });
