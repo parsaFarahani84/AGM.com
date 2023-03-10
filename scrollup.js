@@ -85,3 +85,19 @@ parent.forEach((i) => {
 //     bx.classList.toggle("rotate");
 //   });
 // });
+// -------------------------------------------------------
+
+const input = document.querySelectorAll(".contact-input");
+
+input.forEach((i) => {
+  i.addEventListener("focus", function () {
+    i.parentNode.classList.add("focus");
+    i.parentNode.classList.add("not-empty");
+  });
+  i.addEventListener("blur", function () {
+    if (i.value == "") {
+      i.parentNode.classList.remove("not-empty");
+    }
+    i.parentNode.classList.remove("focus");
+  });
+});
