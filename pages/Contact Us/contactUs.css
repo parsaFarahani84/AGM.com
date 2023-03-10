@@ -1,0 +1,156 @@
+.contact {
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e6e81;
+}
+
+.right img {
+  margin-bottom: -4rem;
+  width: 70%;
+  margin-right: -3rem;
+}
+
+.contact .container {
+  height: 100vh;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact .container > div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.left {
+  width: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+  /* background-color: khaki; */
+  padding: 40px 2.5rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.contact-heading h1 {
+  font-weight: 600;
+  color: #333;
+  font-size: 3.5rem;
+  line-height: 0.9;
+  white-space: nowrap;
+  margin-bottom: 1.5rem;
+}
+
+.contact-heading h1 span {
+  color: #5bc0f8;
+}
+
+.text {
+  display: flex;
+  color: #9ca7b6;
+  line-height: 1.1;
+  font-size: 1rem;
+}
+
+.contact-form {
+  display: grid;
+  margin-top: 2.55rem;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1rem;
+}
+
+.input-wrap.w-100 {
+  grid-column: span 2;
+}
+
+.contact-input {
+  width: 100%;
+  background-color: #e2ecf9;
+  border: 2px solid transparent;
+  outline: none;
+  padding: 1.2rem 1.35rem 1.2rem 1.35rem;
+  font-family: inherit;
+  border-radius: 20px;
+  color: #333;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s;
+}
+
+.contact-input:hover {
+  background-color: #d7e6fa;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap label {
+  position: absolute;
+  display: flex;
+  top: 33%;
+  justify-content: space-between;
+  width: 100%;
+  /* left: calc(9.35rem + 2px); */
+  margin-left: 1rem;
+  /* transform: translate(-50%); */
+  color: gray;
+  pointer-events: none;
+}
+
+.input-wrap i {
+  /* display: none; */
+  margin-right: 2rem;
+  font-size: 1.25rem;
+}
+
+textarea.contact-input {
+  resize: none;
+  width: 100%;
+  min-height: 150px;
+}
+
+textarea.contact-input ~ label {
+  top: 1.2rem;
+  transform: none;
+}
+
+textarea.contact-input ~ i {
+  transform: none;
+  top: 1.3rem;
+}
+
+.form-wrapper {
+  max-width: 32rem;
+}
+
+.contact-input:focus {
+  background-color: #fff;
+  border: 2px solid #5bc0f8;
+  box-shadow: 0.5rem 1rem 4rem rgb(0 0 0 / 10%);
+}
+
+.wave {
+  position: relative;
+  rotate: 90deg;
+  top: -250%;
+  left: 60%;
+}
+
+.text a {
+  color: orange;
+  margin-left: 0.3rem;
+}

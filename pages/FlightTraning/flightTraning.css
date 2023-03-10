@@ -4,13 +4,14 @@
 
 .flight-2 img,
 .flight-1 img {
-  width: 80%;
+  width: 75%;
 }
 
 .flight-2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 4rem;
 }
 
 .grid-2 {
