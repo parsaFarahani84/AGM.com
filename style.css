@@ -254,29 +254,32 @@ li {
   transition: all 0.4s;
   border-radius: 10px;
   width: 28%;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
 .i1 {
   right: 10%;
   top: 4rem;
+  z-index: 5;
 }
 
 .i2 {
   right: 25%;
   top: 10rem;
+  z-index: 10;
 }
 
 .i3 {
   right: 5%;
   top: 15rem;
+  z-index: 4;
 }
 
 .hero_images-container img:hover {
   transform: scale(1.1) translateY(-2rem);
   outline: 8px solid #537fe7;
   outline-offset: 0.5rem;
-  z-index: 10;
+  z-index: 100;
 }
 
 .hero_images-container:hover img:not(:hover) {

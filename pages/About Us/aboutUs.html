@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./flightTraning.css" />
     <link rel="stylesheet" href="../../style.css" />
-    <link rel="stylesheet" href="./aboutUs.css" />
     <link rel="stylesheet" href="../FlightTraning/flightTraning.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+
     <link rel="icon" href="../../data/AGM Logo2.jpg" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Flight Training</title>
   </head>
@@ -38,8 +38,10 @@
             <button><i class="bx bx-file-blank"></i>Programs</button>
             <div class="header_li--dropdown">
               <a href="../FlightTraning/flightTraning.html">Fligh training</a>
-              <a href="./engineering.html">Engineering</a>
-              <a href="../Cabin Crew/cabinCrew.html">Cabin crew</a>
+              <a href="../Engineering/engineering.html">Engineering</a>
+              <a href="../Cabin Crew/cabinCrew.html" class="activate"
+                >Cabin crew</a
+              >
             </div>
           </li>
           <li class="header_li" style="margin-right: -2rem">
@@ -64,14 +66,16 @@
           </li>
           <li class="header_li">
             <button>
-              <a href="../About Us/aboutUs.html" class="avtivate"
+              <a href="../About Us/aboutUs.html"
                 ><i class="bx bx-user-circle"></i>About us</a
               >
             </button>
           </li>
         </ul>
         <div class="btn btn-readmore btn-header">
-          <a href="#"><i class="bx bx-world"></i>Register</a>
+          <a href="../Register/register.html"
+            ><i class="bx bx-world"></i>Register</a
+          >
         </div>
         <!-- --------------------------------------- -->
         <button class="ham-menu sidebar-toggle">
@@ -99,7 +103,9 @@
             <div class="lo">
               <li class="header_li re hide">
                 <button class="side-b">
-                  <a><i class="bx bx-message-square"></i>Fligh training</a>
+                  <a href="../FlightTraning/flightTraning.html"
+                    ><i class="bx bx-message-square"></i>Fligh training</a
+                  >
                 </button>
               </li>
 
@@ -112,7 +118,7 @@
               </li>
               <li class="header_li re hide">
                 <button class="side-b">
-                  <a href="../Cabin Crew/cabinCrew.html"
+                  <a href="../Cabin Crew/cabinCrew.html" class="activate"
                     ><i class="bx bx-message-square"></i>Cabin crew</a
                   >
                 </button>
@@ -167,29 +173,28 @@
             </button>
           </li>
           <div class="btn btn-readmore btn-aside">
-            <a href="#"><i class="bx bx-world"></i>Register</a>
+            <a href="../Register/register.html"
+              ><i class="bx bx-world"></i>Register</a
+            >
           </div>
         </ul>
       </aside>
       <!-- --------------------------------------- -->
     </header>
 
-    <section class="about-section rest">
-      <h1 class="head"><i class="bx bxs-info-circle"></i>About us</h1>
-
-      <div class="about-dev">
-        <div class="r1">
-          <h1>ALL YOU NEED TO KNOW ABOUT US</h1>
-        </div>
-        <div class="r2">
-          <div class="white-back">
-            <p>
+    <div class="flight-container">
+      <section class="rest" style="padding-bottom: 2rem">
+        <h1 class="head"><i class="bx bxs-info-circle"></i>About Us</h1>
+        <div class="grid-2 margin-top-6">
+          <div class="flight-1">
+            <p style="line-height: 1.5rem">
               Aviation Globe Masters Academy was established in 2021 by Mr.
               Hamidreza Farahani, a passionate aviator, expert and engineer with
               more than 25 years of experience as Aircraft Maintenance Engineer.
               The idea of the company, first came into the mind of Mr. Farahani
               when he was attending the CPL/IR course in an ATO in Iran in
-              2020.<br /><br />
+              2020.<br />
+              <br />
               AGM Academy is the first and sole firm which provides facilities
               for the Aviation Students in Iran to get the admission from
               Foreign Training Centers. These services are not limited to Pilot
@@ -198,20 +203,17 @@
               Our main goal is to train professional pilots with the highest
               knowledge in Aviation Training Centers with highest quality and
               safety by the best facilities and programs under the international
-              standards. <br /><br />
-              By these conditions, better career and life is guaranteed and a
-              bright future can be predicted for the young graduated
-              aviators.<br /><br />
+              standards.<br /><br />By these conditions, better career and life
+              is guaranteed and a bright future can be predicted for the young
+              graduated aviators.
             </p>
           </div>
+          <div class="flight-2">
+            <img src="./undraw_team_spirit_re_yl1v.svg" />
+          </div>
         </div>
-      </div>
-    </section>
-
+      </section>
+    </div>
     <script src="../../scrollup.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

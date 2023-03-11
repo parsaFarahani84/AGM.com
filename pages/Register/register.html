@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./flightTraning.css" />
-    <link rel="stylesheet" href="../../style.css" />
-    <link rel="stylesheet" href="../FlightTraning/flightTraning.css" />
+    <link rel="stylesheet" href="./register.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../../style.css" />
     <link rel="icon" href="../../data/AGM Logo2.jpg" />
-
-    <title>Flight Training</title>
+    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../FlightTraning/flightTraning.css" />
+    <title>Document</title>
   </head>
   <body>
     <a href="#" class="go-up">
@@ -37,7 +37,7 @@
             <button><i class="bx bx-file-blank"></i>Programs</button>
             <div class="header_li--dropdown">
               <a href="../FlightTraning/flightTraning.html">Fligh training</a>
-              <a href="./engineering.html" class="activate">Engineering</a>
+              <a href="../Engineering/engineering.html">Engineering</a>
               <a href="../Cabin Crew/cabinCrew.html">Cabin crew</a>
             </div>
           </li>
@@ -70,18 +70,14 @@
           </li>
         </ul>
         <div class="btn btn-readmore btn-header">
-          <a href="../Register/register.html"
-            ><i class="bx bx-world"></i>Register</a
-          >
+          <a href="#"><i class="bx bx-world"></i>Register</a>
         </div>
-        <!-- --------------------------------------- -->
+
         <button class="ham-menu sidebar-toggle">
           <i class="bx bx-menu-alt-right"></i>
         </button>
       </div>
       <aside class="sidebar">
-        <!-- links -->
-
         <div class="aside-head">
           <div class="h1">
             <a href="../../index.html">
@@ -100,15 +96,13 @@
             <div class="lo">
               <li class="header_li re hide">
                 <button class="side-b">
-                  <a href="../FlightTraning/flightTraning.html"
-                    ><i class="bx bx-message-square"></i>Fligh training</a
-                  >
+                  <a><i class="bx bx-message-square"></i>Fligh training</a>
                 </button>
               </li>
 
               <li class="header_li re hide">
                 <button class="side-b">
-                  <a href="../Engineering/engineering.html" class="activate"
+                  <a href="../Engineering/engineering.html"
                     ><i class="bx bx-message-square"></i>Engineering</a
                   >
                 </button>
@@ -170,63 +164,107 @@
             </button>
           </li>
           <div class="btn btn-readmore btn-aside">
-            <a href="../Register/register.html"
-              ><i class="bx bx-world"></i>Register</a
-            >
+            <a href="#"><i class="bx bx-world"></i>Register</a>
           </div>
         </ul>
       </aside>
-      <!-- --------------------------------------- -->
     </header>
+    <!-- ---------------------------------------------------------------------------- -->
 
-    <div class="flight-container">
-      <section class="rest">
-        <h1 class="head"><i class="bx bxs-hard-hat"></i>Engineering</h1>
-        <div class="grid-2 margin-top-6">
-          <div class="flight-1">
-            <p style="line-height: 1.5rem">
-              If your passion lies in discovering how planes work, you can
-              explore the world of aircraft maintenance! In this major, you will
-              learn all about optimising an aircraft’s condition to ensure that
-              it is safe for flying. This includes hands-on skills like
-              inspection, modification, repair, and replacement of aircraft
-              parts and equipment.<br />
-              <br />
-              Airplanes and helicopters go through maintenance routines after a
-              duration of flight hours. A malfunction is highly risky especially
-              when it involves aircraft that is flying 30,000 feet or more above
-              the ground. Aircraft maintenance engineers and technicians are
-              tasked to fix and maintain aircraft by inspecting their
-              airworthiness and repairing and replacing worn components. They
-              will conduct Aircraft’s systems and engine tests occasionally to
-              ensure that it is safe for flying.
-            </p>
-          </div>
-          <div class="flight-2">
-            <img src="./undraw_qa_engineers_dg-5-p.svg" />
+    <section class="contact">
+      <div class="container">
+        <div class="left">
+          <div class="form-wrapper">
+            <div class="contact-heading">
+              <h1>Let's work together<span>.</span></h1>
+              <p class="text">
+                Or reach us via:
+                <a href="mailto:Publish@gmail.com">agmacademy22@gmail.com</a>
+              </p>
+            </div>
+            <form
+              class="contact-form"
+              action="https://formsubmit.co/agmacademy22@gmail.com"
+              method="POST"
+            >
+              <div class="input-wrap">
+                <input
+                  class="contact-input"
+                  autocomplete="off"
+                  name="Fisrt Name"
+                  type="text"
+                  required
+                />
+                <label>First Name<i class="bx bxs-id-card"></i></label>
+              </div>
+
+              <div class="input-wrap">
+                <input
+                  class="contact-input"
+                  autocomplete="off"
+                  name="Last Name"
+                  type="text"
+                  required
+                />
+                <label>Last Name<i class="bx bxs-id-card"></i></label>
+              </div>
+
+              <div class="input-wrap w-100">
+                <input
+                  class="contact-input"
+                  autocomplete="off"
+                  name="Email"
+                  type="email"
+                  required
+                />
+                <label>Email<i class="bx bx-envelope"></i></label>
+              </div>
+
+              <div class="input-wrap w-100">
+                <input
+                  class="contact-input"
+                  autocomplete="off"
+                  name="Number"
+                  type="number"
+                  required
+                />
+                <label>Number<i class="bx bxs-phone"></i></label>
+              </div>
+
+              <div class="input-wrap textarea w-100">
+                <textarea
+                  name="Message"
+                  autocomplete="off"
+                  class="contact-input"
+                >
+                </textarea>
+                <label>Message<i class="bx bxs-inbox"></i></label>
+              </div>
+
+              <div class="contact-buttons w-100">
+                <div class="btn">
+                  <i class="bx bxs-send"></i>
+                  <input type="submit" value="Send message" />
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="border"></div>
-        <div class="grid-1">
-          <div class="flight-2">
-            <img src="./undraw_certification_re_ifll.svg" />
-          </div>
-          <div class="flight-1">
-            <p style="line-height: 1.5rem">
-              This field requires you to understand aircraft systems and
-              components. This knowledge helps you to diagnose and solve
-              aircraft-related issues efficiently and professionally. It is also
-              important to obtain certain licences to be able to offer your
-              services legally.<br /><br />
-              AGMA offers Fresh Aircraft Maintenance courses and also License
-              Conversion from any National CAA Certificates to EASA Part66
-              License in order to get better job opportunities from
-              International Airlines or MRO’s.
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
+      </div>
+      <div class="right">
+        <img src="./undraw_newspaper_re_syf5.svg" />
+      </div>
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,128L26.7,117.3C53.3,107,107,85,160,74.7C213.3,64,267,64,320,90.7C373.3,117,427,171,480,165.3C533.3,160,587,96,640,101.3C693.3,107,747,181,800,202.7C853.3,224,907,192,960,170.7C1013.3,149,1067,139,1120,160C1173.3,181,1227,235,1280,240C1333.3,245,1387,203,1413,181.3L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
     <script src="../../scrollup.js"></script>
   </body>
 </html>
