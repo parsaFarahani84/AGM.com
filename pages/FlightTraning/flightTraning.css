@@ -38,3 +38,105 @@
     margin: 2rem 0;
   }
 }
+
+.box-container {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box-caption img {
+  border-radius: 50%;
+  width: 11%;
+  height: 11%;
+}
+
+.box {
+  box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%); /* background-color: red; */
+  border-radius: 20px;
+  overflow: hidden;
+  width: 90%;
+  margin-bottom: 3rem;
+  transition: all 0.3s;
+}
+
+.img-header {
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 11rem;
+  border-bottom: 4px solid #e96479;
+  border-radius: 3px;
+}
+
+.back1 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/Aircrafts.webp);
+}
+
+.back2 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/DA40\ NG.jpg);
+}
+
+.back3 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/General\ 1.jpg);
+}
+
+.back4 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/Commercial\ 1.jpg);
+}
+
+.back5 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/a350-1000-early_long_flight.jpg);
+}
+
+.back6 {
+  background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
+    url(../Blog/h1.jpg);
+}
+
+.box-caption {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box-text h3 {
+  margin-bottom: 0.3rem;
+}
+
+.box-p {
+  width: 100% !important;
+  font-size: 0.9rem;
+}
+
+.bx-share-alt {
+  float: right;
+  cursor: pointer;
+  color: white;
+  margin: 0.6rem 0.6rem 0 0;
+}
+
+.box:hover {
+  scale: 1.1;
+  transform: translateY(-0.5rem);
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: center;
+}
+.blog-footer img {
+  width: 60%;
+}
