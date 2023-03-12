@@ -37,6 +37,12 @@
   .flight-1 img {
     margin: 2rem 0;
   }
+
+  .box-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .box-container {
