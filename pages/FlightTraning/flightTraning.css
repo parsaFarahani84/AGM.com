@@ -150,8 +150,18 @@
 }
 
 .back-blog {
-  width: 100vw;
+  width: 99vw;
   height: 70vh;
+}
+
+.blog-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -7rem;
+}
+
+.blog-img img {
+  width: 40%;
 }
 
 .whole-blog {
