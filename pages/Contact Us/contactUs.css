@@ -39,25 +39,81 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding: 2rem 0;
 }
 
 .white-back {
   width: 80%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem;
   height: 100%;
   border-radius: 10px;
   background-color: white;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
 }
 
-.r2 p {
-  font-size: 0.9rem;
-  width: 80%;
+.white-back p {
+  color: #636363;
+}
+
+.info-container {
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.boxess {
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-2rem);
+}
+
+.links {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.text-hi h2 {
+  font-family: "Climate Crisis", cursive;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #5bc0f8, #3e54ac);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex;
+  font-size: 1.1rem;
+  justify-content: center;
+}
+
+.bx-mouse {
+  margin-right: -3px;
+  font-size: 1.7rem !important;
+}
+
+.social a {
+  color: #144272 !important;
+}
+
+.hover-effect:hover {
+  background-color: #144272 !important;
+  color: #fff !important;
+}
+
+.boxess h3 {
+  margin-bottom: 0.2rem;
+  color: #144272;
+}
+
+.rest p {
+  margin: 0;
 }
 
 @media screen and (max-width: 37.5em) {
@@ -81,5 +137,18 @@
   }
   .r2 p {
     font-size: 1rem;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social {
+    text-align: center;
+    transform: translateY(0);
+  }
+  .bx-mouse {
+    display: none !important;
   }
 }

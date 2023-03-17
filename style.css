@@ -458,6 +458,7 @@ li {
 
 .social .bx {
   font-size: 2rem;
+  margin: 0;
 }
 .row {
   display: grid;
@@ -917,4 +918,18 @@ Sidebar
 
 .hide {
   display: none;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.container-img img {
+  border-radius: 10px;
+  outline-offset: 0.5rem;
+  outline: 10px solid #82aae3;
+  width: 75%;
 }
