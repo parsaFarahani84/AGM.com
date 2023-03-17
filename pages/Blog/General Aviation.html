@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="./contactUs.css" />
     <link rel="stylesheet" href="../FlightTraning/flightTraning.css" />
-    <link rel="stylesheet" href="./Blog.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="icon" href="../../data/AGM Logo2.jpg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>Flight Training</title>
   </head>
@@ -37,7 +38,7 @@
             <button><i class="bx bx-file-blank"></i>Programs</button>
             <div class="header_li--dropdown">
               <a href="../FlightTraning/flightTraning.html">Fligh training</a>
-              <a href="../Engineering/engineering.html">Engineering</a>
+              <a href="./engineering.html">Engineering</a>
               <a href="../Cabin Crew/cabinCrew.html">Cabin crew</a>
             </div>
           </li>
@@ -63,7 +64,7 @@
           </li>
           <li class="header_li">
             <button>
-              <a href="../About Us/aboutUs.html"
+              <a href="../About Us/aboutUs.html" class="avtivate"
                 ><i class="bx bx-user-circle"></i>About us</a
               >
             </button>
@@ -179,61 +180,54 @@
       <!-- --------------------------------------- -->
     </header>
 
-    <div>
-      <section class="rest" style="padding-bottom: 3rem">
-        <h1 class="head" style="margin-bottom: 4rem">
-          <i class="bx bxs-copy-alt"></i>Blog
-        </h1>
-        <div class="box-container">
-          <a href="./Commercial Aviation.html">
-            <div class="box">
-              <div class="img-header back1">
-                <i class="bx bx-share-alt"></i>
-              </div>
-              <div class="box-caption">
-                <img src="../../data/AGM Logo2.jpg" />
-                <div class="box-text">
-                  <h3>Commercial Aviation</h3>
-                  <p class="box-p">click to readt more...</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="./Diamond DA40 NG 2.0.html">
-            <div class="box">
-              <div class="img-header back2">
-                <i class="bx bx-share-alt"></i>
-              </div>
-              <div class="box-caption">
-                <img src="../../data/AGM Logo2.jpg" />
-                <div class="box-text">
-                  <h3>Diamond DA40 NG 2.0</h3>
-                  <p class="box-p">click to readt more...</p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="./General Aviation.html">
-            <div class="box">
-              <div class="img-header back3">
-                <i class="bx bx-share-alt"></i>
-              </div>
-              <div class="box-caption">
-                <img src="../../data/AGM Logo2.jpg" />
-                <div class="box-text">
-                  <h3>General Aviation</h3>
-                  <p class="box-p">click to readt more...</p>
-                </div>
-              </div>
-            </div>
-          </a>
+    <section class="blog-section rest" style="margin-top: 0">
+      <div class="blog-container">
+        <div class="back3 back-blog"></div>
+        <div class="whole-blog">
+          <h1 class="head" style="margin-bottom: 4rem">
+            <i class="bx bxs-copy-alt"></i>General Aviation
+          </h1>
+          <p>
+            General Aviation is a broad category that encompasses all
+            non-scheduled, non-military flight operations employed not for the
+            purpose of hiring through paid crew. The majority of world’s airport
+            serve GA exclusively. In fact, general aviation is generally defined
+            as operations used for specialized services such as recreational
+            flying and air tourism, sightseeing flights, flight instruction,
+            agricultural crop dusting, air ambulance and emergency medical
+            services, business aviation, construction, firefighting, traffic
+            reporting, surveying and mapmaking and civilian search and rescue,
+            air sports and other gainful pursuits. General aviation flying can
+            be more flexible than commercial airlines and it can provide the
+            quickest way to destinations roughly impossible to reach or points
+            to which there is no direct commercial airline service or rail
+            connection. Light and ultra-light aircrafts often use less fuel
+            compared to passenger aircraft over the similar distance. They do
+            not demand construction of roads and runways through hundreds of
+            miles of virgin wilderness as well. The significance of general
+            aviation becomes greater when it is realized that general aviation
+            activities serve as an economic engine that globally create
+            thousands of jobs and billions of dollars and give rise to
+            increasing number of business ventures built around light aircraft
+            operations. Flexibility, speed and safety are some advantages that
+            general aviation transportation offer for business and personal
+            travel. Commercial organizations advertise aerial tours to give
+            visitors a great view of site from above using helicopters. Agencies
+            and government offices take advantage of general aviation to conduct
+            surveys of wildlife and geological regions as well as generating
+            maps of endangered areas. Air ambulances can carry accident victims
+            to hospitals in the fastest way possible. Additionally, general
+            aviation resources are used for blood and organ delivery to
+            patients.
+          </p>
         </div>
+      </div>
+    </section>
 
-        <div class="blog-footer">
-          <img src="./undraw_taking_notes_re_bnaf.svg" />
-        </div>
-      </section>
-    </div>
     <script src="../../scrollup.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

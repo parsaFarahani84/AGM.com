@@ -87,7 +87,9 @@
 
 .back3 {
   background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
-    url(../Blog/General\ 1.jpg);
+    url(../../data/g1.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 .back4 {
@@ -145,4 +147,24 @@
 }
 .blog-footer img {
   width: 60%;
+}
+
+.back-blog {
+  width: 100vw;
+  height: 70vh;
+}
+
+.whole-blog {
+  width: 70%;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 4px solid #e1e1e1;
+  transform: translateY(-7rem);
+  line-height: 23px;
+}
+
+.whole-blog p {
+  font-size: 1.05rem;
 }
