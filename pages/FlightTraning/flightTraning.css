@@ -43,6 +43,30 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .box-container a {
+    justify-content: center;
+  }
+
+  .back-blog {
+    height: 35vh !important;
+  }
+
+  .whole-blog {
+    padding: 1rem !important;
+    width: 85% !important;
+  }
+
+  .whole-blog p {
+    width: 90% !important;
+  }
+
+  .whole-blog .head {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.6rem !important;
+    margin-bottom: 3rem !important;
+  }
 }
 
 .box-container {
@@ -78,17 +102,21 @@
 .back1 {
   background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
     url(../../data/Commercial\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .back2 {
   background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
     url(../Blog/DA40\ NG.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .back3 {
   background-image: linear-gradient(to bottom right, #3e54acce, #5bc1f8ba),
     url(../../data/g1.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
   background-position: top;
 }
 
@@ -129,13 +157,6 @@
   font-size: 0.9rem;
 }
 
-.bx-share-alt {
-  float: right;
-  cursor: pointer;
-  color: white;
-  margin: 0.6rem 0.6rem 0 0;
-}
-
 .box:hover {
   scale: 1.1;
   transform: translateY(-0.5rem);
@@ -150,14 +171,14 @@
 }
 
 .back-blog {
-  width: 99vw;
+  width: 100vw;
   height: 70vh;
 }
 
 .blog-img {
   display: flex;
   justify-content: center;
-  margin-top: -7rem;
+  margin-top: -5rem;
 }
 
 .blog-img img {
