@@ -67,10 +67,12 @@ button {
 }
 
 .btn {
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 10px;
   display: inline-block;
   border: 2px solid transparent;
+  display: flex;
+  align-items: center;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -95,6 +97,7 @@ button {
 }
 
 .btn a {
+  font-size: 1rem;
   color: white;
 }
 
@@ -486,7 +489,7 @@ li {
 
 .f1 ul {
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .f2 h3 {
@@ -502,6 +505,19 @@ li {
 
 .hover-effect {
   transition: all 0.3s;
+}
+
+.hover-effect-pages {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hover-effect-pages:hover {
+  transform: scale(1.2) skewY(-2deg) skewX(15deg);
+  text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+
+  background-color: white;
+  color: #537fe7 !important;
 }
 
 .hover-effect:hover {
