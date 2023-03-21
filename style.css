@@ -505,7 +505,8 @@ li {
 }
 
 .hover-effect:hover {
-  transform: scale(1.2) skewY(5deg);
+  transform: scale(1.2);
+  border-radius: 5px;
   background-color: white;
   color: #537fe7 !important;
 }
