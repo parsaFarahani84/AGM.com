@@ -132,6 +132,11 @@ li {
 
 .header {
   background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
   height: 5rem;
   border-bottom: 2px solid #e96479;
 }
@@ -644,6 +649,7 @@ li {
   .rest p {
     width: 74%;
     text-align: start !important;
+    /* padding-bottom: 4rem; */
   }
 
   .intrested {
@@ -676,7 +682,7 @@ li {
     width: 40%;
   }
   .rest {
-    padding: 0 1rem;
+    padding: 2rem 1rem 3rem 1rem;
   }
 
   .row {
@@ -751,7 +757,7 @@ li {
     z-index: 100;
   }
   .border {
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
 }
 
@@ -829,6 +835,7 @@ Global Styles
 main {
   min-height: 100vh;
   display: grid;
+  margin-top: 5rem;
   place-items: center;
 }
 
