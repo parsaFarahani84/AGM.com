@@ -26,6 +26,53 @@
   grid-template-columns: 1fr 2fr;
 }
 
+@media screen and (max-width: 850px) {
+  .grid-2,
+  .grid-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flight-2 img,
+  .flight-1 img {
+    margin: 2rem 0;
+  }
+
+  .box-container {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-container a {
+    justify-content: center;
+  }
+
+  .back-blog {
+    height: 35vh !important;
+  }
+
+  .whole-blog {
+    padding: 1rem !important;
+    width: 85% !important;
+  }
+
+  .whole-blog p {
+    width: 90% !important;
+  }
+
+  .whole-blog .head {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.6rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .flight-1 p {
+    padding: 1rem;
+  }
+}
+
 @media screen and (max-width: 37.5em) {
   .grid-2,
   .grid-1 {
