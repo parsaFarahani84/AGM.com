@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif; /* change it later maybe === font */
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   overflow-x: hidden; /* Hide scrollbars */
 }
@@ -150,7 +150,7 @@ li {
 
 .header_ul {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: center;
 }
 
@@ -305,7 +305,7 @@ li {
 
 .rest {
   padding: 0 4rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 1rem;
   align-items: center;
   display: flex;
@@ -333,6 +333,8 @@ li {
   width: 70%;
   margin: 0 auto;
   color: #4b4b4b;
+  text-align: justify;
+  /* word-spacing: -2px; */
 }
 
 .intrested {
@@ -502,6 +504,8 @@ li {
   line-height: 1.5rem;
   float: right;
   line-height: 1.5rem;
+  font-weight: 300;
+  text-align: center;
 }
 
 .f2 a {
@@ -514,13 +518,13 @@ li {
 
 .hover-effect-pages {
   transition: all 0.3s;
+  /* padding: 1px; */
   cursor: pointer;
 }
 
 .hover-effect-pages:hover {
-  transform: scale(1.2) skewY(-2deg) skewX(15deg);
+  transform: scale(1.2);
   text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
-
   background-color: white;
   color: #537fe7 !important;
 }
@@ -647,9 +651,11 @@ li {
   }
 
   .rest p {
-    width: 74%;
-    text-align: start !important;
-    /* padding-bottom: 4rem; */
+    width: 100%;
+  }
+
+  .text-center {
+    text-align: center !important;
   }
 
   .intrested {
@@ -882,7 +888,6 @@ Sidebar
 }
 
 .parent {
-  margin-top: 1rem;
   transition: all 0.3s;
 }
 

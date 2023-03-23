@@ -69,7 +69,7 @@
   margin-bottom: 1rem;
 }
 
-.social {
+.so {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -98,13 +98,19 @@
   font-size: 1.7rem !important;
 }
 
-.social a {
+.so a {
   color: #144272 !important;
 }
 
-.hover-effect:hover {
+.he {
+  transition: all 0.3s;
+}
+
+.he:hover {
   background-color: #144272 !important;
   color: #fff !important;
+  border-radius: 5px;
+  transform: scale(1.2);
 }
 
 .boxess h3 {
@@ -144,7 +150,7 @@
     flex-direction: column;
   }
 
-  .social {
+  .so {
     text-align: center;
     transform: translateY(0);
   }

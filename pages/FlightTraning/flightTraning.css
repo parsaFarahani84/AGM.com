@@ -67,6 +67,10 @@
     font-size: 1.6rem !important;
     margin-bottom: 3rem !important;
   }
+
+  .flight-1 p {
+    padding: 1rem;
+  }
 }
 
 .box-container {

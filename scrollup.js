@@ -101,3 +101,25 @@ input.forEach((i) => {
     i.parentNode.classList.remove("focus");
   });
 });
+// // Get the element to fade
+// var element = document.getElementById("effect");
+
+// // Set the initial opacity to 1 (fully opaque)
+// var opacity = 1;
+
+// // Define the animation function
+// function fadeToBottom() {
+//   // Reduce the opacity by 0.01 every 10 milliseconds
+//   opacity -= 0.01;
+//   // Set the opacity of the element
+//   element.style.opacity = opacity;
+//   // Move the element down by 1 pixel
+//   element.style.top = parseInt(element.style.top) + 1 + "px";
+//   // Repeat until the element is fully faded out
+//   if (opacity <= 0) {
+//     clearInterval(fadeInterval);
+//   }
+// }
+
+// // Call the animation function every 10 milliseconds
+// var fadeInterval = setInterval(fadeToBottom, 10);
