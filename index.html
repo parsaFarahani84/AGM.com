@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <title>AGM</title>
   </head>
@@ -38,7 +38,7 @@
         <ul class="header_ul">
           <li class="header_li">
             <button>
-              <a href="./index.html"><i class="bx bx-home-alt-2"></i>Home</a>
+              <a href="#"><i class="bx bx-home-alt-2"></i>Home</a>
             </button>
           </li>
           <li class="header_li" style="margin-right: -2rem">
@@ -95,115 +95,85 @@
           >
         </div>
         <!-- --------------------------------------- -->
-        <button class="ham-menu sidebar-toggle">
+        <!-- <button class="ham-menu sidebar-toggle">
           <i class="bx bx-menu-alt-right"></i>
-        </button>
-      </div>
-      <aside class="sidebar">
-        <!-- links -->
+        </button> -->
 
-        <div class="aside-head">
-          <div class="h1">
-            <img src="./data/AGM Logo2.jpg" />
-          </div>
-          <div class="h2">
-            <i class="bx bx-x-circle"></i>
-          </div>
+        <div class="navigation">
+          <input
+            type="checkbox"
+            class="navigation__checkbox"
+            id="navi-toggle"
+          />
+
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+
+          <div class="navigation__background">&nbsp;</div>
+
+          <nav class="navigation__nav">
+            <ul class="navigation__list display-none">
+              <li class="navigation__item">
+                <a href="./index.html" class="navigation__link"
+                  ><span>01</span>Home</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/FlightTraning/flightTraning.html"
+                  class="navigation__link"
+                  ><span>02</span>Flight Traning</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Cabin Crew/cabinCrew.html"
+                  class="navigation__link"
+                  ><span>03</span>Cabin Crew</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Admission/admission.html"
+                  class="navigation__link"
+                  ><span>04</span>Admission</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./pages/Visa/visa.html" class="navigation__link"
+                  ><span>05</span>Visa</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="./pages/Accommodation/Accommodation.html"
+                  class="navigation__link"
+                  ><span>06</span>Accommodation</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="./pages/Blog/Blog.html" class="navigation__link"
+                  ><span>07</span>Blog</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a
+                  href="/pages/Contact Us/contactUs.html"
+                  class="navigation__link"
+                  ><span>08</span>Contact Us</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a href="/pages/About Us/aboutUs.html" class="navigation__link"
+                  ><span>09</span>About Us</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
 
-        <ul class="aside_ul">
-          <li class="header_li">
-            <button>
-              <a href="./index.html"><i class="bx bx-home-alt-2"></i>Home</a>
-            </button>
-          </li>
-          <li class="header_li parent" style="margin-right: -2rem; margin-top: 0.6rem"">
-            <button><i class="bx bx-chevron-right"></i>Programs</button>
-
-            <div class="lo">
-              <li class="header_li re hide">
-                <button>
-                  <a href="./pages/FlightTraning/flightTraning.html"
-                    ><i class="bx bx-message-square"></i>Fligh training</a
-                  >
-                </button>
-              </li>
-
-              <li class="header_li re hide">
-                <button>
-                  <a href="./pages/Engineering/engineering.html"
-                    ><i class="bx bx-message-square"></i>Engineering</a
-                  >
-                </button>
-              </li>
-              <li class="header_li re hide">
-                <button>
-                  <a href="./pages/Cabin Crew/cabinCrew.html"
-                    ><i class="bx bx-message-square"></i>Cabin crew</a
-                  >
-                </button>
-              </li>
-            </div>
-          </li>
-          <li
-            class="header_li parent ser"
-            style="margin-right: -2rem; margin-top: 0.6rem"
-          >
-            <button><i class="bx bx-chevron-right"></i>Services</button>
-
-            <span class="ddd">
-              <li class="header_li ra hide">
-                <button>
-                  <a href="./pages/Admission/admission.html"
-                    ><i class="bx bx-message-square"></i>Admission</a
-                  >
-                </button>
-              </li>
-              <li class="header_li ra hide">
-                <button>
-                  <a href="./pages/Visa/visa.html"
-                    ><i class="bx bx-message-square"></i>Visa</a
-                  >
-                </button>
-              </li>
-              <li class="header_li ra hide">
-                <button>
-                  <a href="./pages/Accommodation/Accommodation.html">
-                    <i class="bx bx-message-square"></i>Accommodation</a
-                  >
-                </button>
-              </li>
-            </span>
-          </li>
-
-          <li class="header_li">
-            <button style="margin-top: 1rem">
-              <a href="./pages/Contact Us/contactUs.html"
-                ><i class="bx bx-conversation"></i>Contact us</a
-              >
-            </button>
-          </li>
-          <li class="header_li">
-            <button style="margin-top: 1rem">
-              <a href="./pages/Blog/Blog.html"
-                ><i class="bx bx-pencil"></i>Blog</a
-              >
-            </button>
-          </li>
-          <li class="header_li">
-            <button style="margin-top: 1rem">
-              <a href="/pages/About Us/aboutUs.html"
-                ><i class="bx bx-user-circle"></i>About us</a
-              >
-            </button>
-          </li>
-          <div class="btn btn-readmore btn-aside">
-            <a href="./pages/Register/register.html"
-              ><i class="bx bx-world"></i>Register</a
-            >
-          </div>
-        </ul>
-      </aside>
       <!-- --------------------------------------- -->
     </header>
 
@@ -230,10 +200,9 @@
         </div>
       </section>
       <div id="read-more"></div>
-      <section class="rest" id="about" >
-        <h1  class="head">ABOUT AGMA</h1>
-        <p 
-        style="line-height: 1.5rem; padding: 1rem">
+      <section class="rest" id="about">
+        <h1 class="head">ABOUT AGMA</h1>
+        <p style="line-height: 1.5rem; padding: 1rem">
           AGM Academy is the first and sole firm which provides facilities for
           the Aviation Students in Iran to get the admission from an
           International Training Center. These services are not limited to Pilot
@@ -277,9 +246,9 @@
         </div>
       </section>
 
-      <section class="rest effect" >
-        <h1 class="head" >AGMA SERVICES</h1>
-        <p  style="line-height: 1.5rem; padding: 1rem">
+      <section class="rest effect">
+        <h1 class="head">AGMA SERVICES</h1>
+        <p style="line-height: 1.5rem; padding: 1rem">
           Aviation Globe Masters Academy provide a variety of services for
           students or beginners in a well-organized International ATO. The
           graduates are prepared to start their jobs in any company around the
@@ -306,7 +275,7 @@
         </svg>
         <div class="f-whole">
           <div class="row">
-            <div class="f1" >
+            <div class="f1">
               <div class="logo-footer">
                 <img
                   class="footer-logo"
@@ -387,13 +356,13 @@
                 ></a>
               </div>
             </div>
-            <div class="f3"  >
+            <div class="f3">
               <img
                 class="footer-img"
                 src="./data/undraw_in_the_office_re_jtgc.svg"
               />
             </div>
-            <div class="f2" >
+            <div class="f2">
               <h3>
                 All rights reserved for
                 <a>AGM Academy</a>. All registered signs including the

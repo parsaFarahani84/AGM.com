@@ -1,28 +1,13 @@
 "use strict";
 
 // -----------------------------RESPONSIVE MENU-------------------------
+const nav = document.querySelector(".navigation");
 const header = document.querySelector(".header_ul");
-const ham = document.querySelector(".ham-menu");
 
-const handelingMenu = () => {
-  if (header.style.display === "flex") {
-    ham[0].classList.add("hidden");
-  }
-};
-
-handelingMenu();
-
-// ----------------------------SHOW MENU------------------------------
-const menu = document.querySelector(".bx-menu-alt-right");
-const sidebar = document.querySelector(".sidebar");
-
-menu.addEventListener("click", function () {
-  if (sidebar.classList.contains("show-sidebar")) {
-    sidebar.classList.remove("show-sidebar");
-  } else {
-    sidebar.classList.add("show-sidebar");
-  }
-});
+if (header.style.display == "flex") {
+  console.log("li");
+  // nav.style.display === "none";
+}
 
 // ------------------------SCROLL UP--------------------
 
@@ -51,29 +36,29 @@ window.onload = calcScrollUp;
 
 const x = document.querySelector(".bx-x-circle");
 
-x.addEventListener("click", function () {
-  sidebar.classList.remove("show-sidebar");
-});
+// x.addEventListener("click", function () {
+//   sidebar.classList.remove("show-sidebar");
+// });
 
 // -----------------------------------------------------
 
-const parent = document.querySelectorAll(".parent");
-const child = document.querySelectorAll(".re");
-const child2 = document.querySelectorAll(".ra");
+// const parent = document.querySelectorAll(".parent");
+// const child = document.querySelectorAll(".re");
+// const child2 = document.querySelectorAll(".ra");
 
-parent.forEach((i) => {
-  i.addEventListener("click", function () {
-    if (i.classList.contains("ser")) {
-      child2.forEach((e) => {
-        e.classList.toggle("hide");
-      });
-    } else {
-      child.forEach((e) => {
-        e.classList.toggle("hide");
-      });
-    }
-  });
-});
+// parent.forEach((i) => {
+//   i.addEventListener("click", function () {
+//     if (i.classList.contains("ser")) {
+//       child2.forEach((e) => {
+//         e.classList.toggle("hide");
+//       });
+//     } else {
+//       child.forEach((e) => {
+//         e.classList.toggle("hide");
+//       });
+//     }
+//   });
+// });
 
 // ------------------------ROTATE--------------------
 // const bx = document.querySelectorAll(".bx-chevron-right");
@@ -101,25 +86,10 @@ input.forEach((i) => {
     i.parentNode.classList.remove("focus");
   });
 });
-// // Get the element to fade
-// var element = document.getElementById("effect");
+// -------------------------------------------------------------------
+const hamul = document.querySelector(".navigation__list");
+const navigation = document.querySelector(".navigation__button");
 
-// // Set the initial opacity to 1 (fully opaque)
-// var opacity = 1;
-
-// // Define the animation function
-// function fadeToBottom() {
-//   // Reduce the opacity by 0.01 every 10 milliseconds
-//   opacity -= 0.01;
-//   // Set the opacity of the element
-//   element.style.opacity = opacity;
-//   // Move the element down by 1 pixel
-//   element.style.top = parseInt(element.style.top) + 1 + "px";
-//   // Repeat until the element is fully faded out
-//   if (opacity <= 0) {
-//     clearInterval(fadeInterval);
-//   }
-// }
-
-// // Call the animation function every 10 milliseconds
-// var fadeInterval = setInterval(fadeToBottom, 10);
+navigation.addEventListener("click", function () {
+  hamul.classList.toggle("display-none");
+});
