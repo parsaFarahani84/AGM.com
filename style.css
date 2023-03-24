@@ -774,7 +774,14 @@ li {
   }
 }
 
+.navigation {
+  display: none;
+}
+
 @media screen and (max-width: 37.5em) {
+  .navigation {
+    display: flex;
+  }
   .header_ul {
     display: none;
   }

@@ -1,18 +1,5 @@
 "use strict";
 
-// -----------------------------RESPONSIVE MENU-------------------------
-const nav = document.querySelector(".navigation");
-const header = document.getElementsByClassName("header_ul");
-
-// console.log(screen.width);
-
-const g = () => {
-  if (screen.width >= 853) {
-    nav.classList.toggle("display-none");
-  }
-};
-g();
-
 // ------------------------SCROLL UP--------------------
 
 let calcScrollUp = () => {
