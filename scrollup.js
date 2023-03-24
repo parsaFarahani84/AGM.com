@@ -2,12 +2,16 @@
 
 // -----------------------------RESPONSIVE MENU-------------------------
 const nav = document.querySelector(".navigation");
-const header = document.querySelector(".header_ul");
+const header = document.getElementsByClassName("header_ul");
 
-if (header.style.display == "flex") {
-  console.log("li");
-  // nav.style.display === "none";
-}
+// console.log(screen.width);
+
+const g = () => {
+  if (screen.width >= 853) {
+    nav.classList.toggle("display-none");
+  }
+};
+g();
 
 // ------------------------SCROLL UP--------------------
 
