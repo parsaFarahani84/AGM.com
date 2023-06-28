@@ -448,7 +448,7 @@ li {
   /* padding-top: 2rem; */
   padding-bottom: 3rem;
   margin-top: -1rem;
-  background-color: #537fe7;
+  background-color: #788bff;
 }
 
 .logo-footer {
@@ -583,7 +583,14 @@ li {
   visibility: hidden !important;
 }
 
+.navigation {
+  display: none;
+}
+
 @media screen and (max-width: 850px) {
+  .navigation {
+    display: flex;
+  }
   .f-whole {
     padding-bottom: 3rem;
   }
@@ -745,18 +752,18 @@ li {
 
   .hero_images-container .i3 {
     left: 8%;
-    top: 25rem;
+    top: 21rem;
   }
 
   .hero_images-container .i2 {
     right: 30%;
-    top: 23rem;
+    top: 17rem;
     z-index: 10 !important;
   }
 
   .hero_images-container .i1 {
     right: 8%;
-    top: 25rem;
+    top: 21rem;
   }
 
   .hero_images-container img {
@@ -772,10 +779,6 @@ li {
   .border {
     margin: 1rem 0;
   }
-}
-
-.navigation {
-  display: none;
 }
 
 @media screen and (max-width: 37.5em) {
